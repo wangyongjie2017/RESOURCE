@@ -7,25 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>永杰Plus</title>
     <style>
-        *{
+        * {
             padding: 0;
             margin: 0;
         }
-        
-        body{
-            overflow: hidden;
+
+        a {
+            text-decoration: none;
+            color: cornflowerblue;
         }
 
-        img{
+        img {
             width: 100vw;
+        }
+
+        .root {
+            width: 990px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        audio {
+            transform: rotate(-90deg);
+            position: fixed;
+            top: 150px;
+            right: 0;
         }
     </style>
 </head>
 
 <body>
-    <img src="./image/20180704-3.jpeg" alt="">
-    <audio autoplay="autoplay">
-        <source src="./mp3/张敬轩断点.mp3" type="">
+    <div class="root">
+        <h1>
+            <a href="http://wangyongjie.top/">永杰Plus</a>
+        </h1>
+        <p>资源管理、素材等文件</p>
+    </div>
+    <audio autoplay="autoplay" controls>
+        <source src="./audio/张敬轩断点.mp3" type="">
     </audio>
 </body>
+
 </html>
